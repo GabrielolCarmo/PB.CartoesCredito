@@ -10,6 +10,10 @@ namespace PB.CartoesCredito.Api.Consumers
         private readonly MediatR.IMediator _mediator = mediator;
         private readonly IUnityOfWork _uow = uow;
 
+        /// <summary>
+        /// Consome a mensagem de crédito disponibilizado, mapeando para o comando que gera emite a lista de cartões de crédito.
+        /// </summary>
+        /// <param name="context">Contexto da mensagem recebida.</param>
         public async Task Consume(ConsumeContext<CreditoDisponibilizadoMessage> context)
         {
             var message = context.Message;
