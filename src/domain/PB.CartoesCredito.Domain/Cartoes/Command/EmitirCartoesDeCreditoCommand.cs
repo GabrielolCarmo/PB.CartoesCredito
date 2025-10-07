@@ -1,6 +1,9 @@
-﻿namespace PB.CartoesCredito.Domain.Cartoes.Command
+﻿using MediatR;
+using PB.Commons.Infra.Kernel.Application;
+
+namespace PB.CartoesCredito.Domain.Cartoes.Command
 {
-    public class EmitirCartoesDeCreditoCommand
+    public class EmitirCartoesDeCreditoCommand : IRequest<IServiceOperationResult>
     {
         public Guid ClientId { get; set; }
 
