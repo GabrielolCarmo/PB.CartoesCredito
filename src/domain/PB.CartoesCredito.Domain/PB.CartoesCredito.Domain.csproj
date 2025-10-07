@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PB.Commons.Infra.Kernel">
+      <HintPath>..\..\..\dependencies\PB.Commons.Infra.Kernel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

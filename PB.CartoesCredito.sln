@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{209BA3BB-3174-44A2-8A5D-E78A7FF30D12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{664A53B4-2675-400F-9DBC-C7764199B0FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.CartoesCredito.Api", "src\api\PB.CartoesCredito.Api\PB.CartoesCredito.Api.csproj", "{0B820A75-5D28-409D-9D2A-8E76BDA54D6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{1EA146E2-06E0-4EED-91F0-BF80284138EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.CartoesCredito.Application", "src\application\PB.CartoesCredito.Application\PB.CartoesCredito.Application.csproj", "{BA742079-D5BC-470B-A6B6-327324EC84FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{F478FAF1-1B1E-4E35-8D8D-4125701BAF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.CartoesCredito.Domain", "src\domain\PB.CartoesCredito.Domain\PB.CartoesCredito.Domain.csproj", "{6A265064-7B39-4466-A3B4-832C2A5FD9AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{C3DC17CE-F962-49E4-8C8C-5100984660E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.CartoesCredito.UnityTests", "test\PB.CartoesCredito.UnityTests\PB.CartoesCredito.UnityTests.csproj", "{D2978018-E777-4047-90CF-3C4EE9B73D35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89A7F04A-6DE1-42FE-ADDE-ABBA801682B3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.CartoesCredito.Infra.Data", "src\infra\PB.CartoesCredito.Infra.Data\PB.CartoesCredito.Infra.Data.csproj", "{F06119E4-C0FE-D5A2-6B94-5EDC88E3F574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B820A75-5D28-409D-9D2A-8E76BDA54D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B820A75-5D28-409D-9D2A-8E76BDA54D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B820A75-5D28-409D-9D2A-8E76BDA54D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B820A75-5D28-409D-9D2A-8E76BDA54D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA742079-D5BC-470B-A6B6-327324EC84FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA742079-D5BC-470B-A6B6-327324EC84FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA742079-D5BC-470B-A6B6-327324EC84FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA742079-D5BC-470B-A6B6-327324EC84FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A265064-7B39-4466-A3B4-832C2A5FD9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A265064-7B39-4466-A3B4-832C2A5FD9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A265064-7B39-4466-A3B4-832C2A5FD9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A265064-7B39-4466-A3B4-832C2A5FD9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2978018-E777-4047-90CF-3C4EE9B73D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2978018-E777-4047-90CF-3C4EE9B73D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2978018-E777-4047-90CF-3C4EE9B73D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2978018-E777-4047-90CF-3C4EE9B73D35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06119E4-C0FE-D5A2-6B94-5EDC88E3F574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06119E4-C0FE-D5A2-6B94-5EDC88E3F574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06119E4-C0FE-D5A2-6B94-5EDC88E3F574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06119E4-C0FE-D5A2-6B94-5EDC88E3F574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{664A53B4-2675-400F-9DBC-C7764199B0FE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0B820A75-5D28-409D-9D2A-8E76BDA54D6B} = {664A53B4-2675-400F-9DBC-C7764199B0FE}
+		{1EA146E2-06E0-4EED-91F0-BF80284138EF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BA742079-D5BC-470B-A6B6-327324EC84FD} = {1EA146E2-06E0-4EED-91F0-BF80284138EF}
+		{F478FAF1-1B1E-4E35-8D8D-4125701BAF48} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6A265064-7B39-4466-A3B4-832C2A5FD9AE} = {F478FAF1-1B1E-4E35-8D8D-4125701BAF48}
+		{C3DC17CE-F962-49E4-8C8C-5100984660E0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D2978018-E777-4047-90CF-3C4EE9B73D35} = {209BA3BB-3174-44A2-8A5D-E78A7FF30D12}
+		{F06119E4-C0FE-D5A2-6B94-5EDC88E3F574} = {C3DC17CE-F962-49E4-8C8C-5100984660E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA73BA90-D6D0-4DA7-A619-7E88A7759679}
+	EndGlobalSection
+EndGlobal
